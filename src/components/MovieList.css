@@ -1,0 +1,32 @@
+/* MovieList.css */
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .movie-item:hover {
+    background-color: #ffffff28;
+  }
+  
+  .movie-title {
+    margin-bottom: 10px;
+  }
+  
+  .movie-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .release-date,
+  .rating {
+    font-weight: bold;
+  }
+  
